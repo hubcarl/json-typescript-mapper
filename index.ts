@@ -172,7 +172,7 @@ export function deserialize<T extends IGenericObject>(Clazz: {new(): T}, json: I
     /**
      * init root class to contain json
      */
-    let instance = new Clazz();
+    let instance : IGenericObject = new Clazz();
 
     Object.keys(instance).forEach((key: string) => {
         /**
@@ -192,7 +192,7 @@ export function deserialize<T extends IGenericObject>(Clazz: {new(): T}, json: I
         }
     });
 
-    return instance;
+    return instance as T;
 }
 
 /**

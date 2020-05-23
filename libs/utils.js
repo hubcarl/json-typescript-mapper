@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isArrayOrArrayClass = exports.isPrimitiveOrPrimitiveClass = exports.isTargetType = void 0;
 function isTargetType(val, type) {
     return typeof val === type;
 }
