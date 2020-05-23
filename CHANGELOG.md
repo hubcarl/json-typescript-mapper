@@ -1,4 +1,4 @@
-## [1.1.5](https://github.com/hubcarl/json-typescript-mapper/compare/1.1.4...1.1.5) (2020-05-23)
+## [2.0.1](https://github.com/hubcarl/json-typescript-mapper/compare/2.0.1...1.1.3) (2020-05-23)
 
 ### Bug Fixes
 
